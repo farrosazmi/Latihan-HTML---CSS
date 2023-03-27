@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="/assets/img/Ninja Ken.png"/>
+    <title>Latihan HTML & CSS</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar-container">
+        <div class="navbar">
+            <div class="navbar-logo">
+                <h1 class="no-wrap">NINJA KEN</h1>
+            </div>
+
+            <!-- BURGER -->
+            <div class="navbar-item">
+                <span class="fa fa-bars menu-icon"></span>
+            </div>
+            <div class="navbar-list">
+                <ul>
+                    <a href="#about" class="list-item">Tentang Saya</a>
+                    <a href="#project" class="list-item">Proyek Contoh</a>
+                    <a href="#contact" class="list-item">Hubungi Saya</a>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="container">
+        <div class="banner">
+            <h1 class="no-wrap">NINJA KEN<span>.</span></h1>
+            <h3>MY PORTOFOLIO</h3>
+            <img class="ninjaken" src="/assets/img/Ninja Ken.png">
+        </div>
+    </div>
+
+    
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h2>Tentang Saya</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam excepturi, nostrum officiis earum beatae quae blanditiis in ipsam molestiae minus tempora, eius explicabo odit eligendi deserunt? Soluta rerum voluptates corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ducimus nesciunt voluptas repellendus ipsum aspernatur iste harum, nisi ipsa, id, cupiditate non omnis sunt labore! Iure quod dicta neque cupiditate.</p>
+    </section>
+
+    <!-- PROJECT -->
+    <section class="project" id="project">
+        <h2>Proyek Contoh</h2>
+        <div class="card-wrapper">
+            <div class="card-item">
+                <img src="/assets/img/1.png">
+                <p>Image 1</p>
+            </div>
+            <div class="card-item">
+                <img src="/assets/img/2.png">
+                <p>Image 2</p>
+            </div>
+            <div class="card-item">
+                <img src="/assets/img/3.png">
+                <p>Image 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2>Hubungi Saya</h2>
+        <input
+            type="email"
+            class="contact-email"
+            placeholder="Email (Diperlukan)"
+            required
+        />
+        <textarea 
+            type="text"
+            class="contact-textarea"
+            placeholder="Message (Diperlukan)"
+        ></textarea>
+        <input 
+            type="submit"
+            class="submit"
+            value="Kirim"
+        />
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer">
+                <h1>NINJA KEN</h1>
+                <ul class="footer-list">
+                    <a href="#about" class="footer-item">Tentang Saya</a>
+                    <a href="#project" class="footer-item">Proyek Contoh</a>
+                    <a href="#contact" class="footer-item">Hubungi Saya</a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
