@@ -59,6 +59,10 @@ p {
 
 }
 
+.navbar-item {
+    display: block;
+}
+
 .navbar-list {
     display: flex;
     align-items: center;
