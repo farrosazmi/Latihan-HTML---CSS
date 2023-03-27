@@ -56,11 +56,12 @@ p {
     font-family: "Poppins";
     padding-right: 10px;
     padding-left: 35px;
+    letter-spacing: 5px;
 
 }
 
 .navbar-item {
-    display: block;
+    display: none;
 }
 
 .navbar-list {
